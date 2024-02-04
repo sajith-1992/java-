@@ -13,9 +13,11 @@ public class App {
     h3.a=3000;
     h3.b=9000;
    
+    
+   
     s1.display();
-    h3.display();
-
+  
+    
 
             sc.close();
     }}
