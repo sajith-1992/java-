@@ -1,14 +1,16 @@
 
 
 public class App {
-    static int a=10;
-    static void hello(){
+    int a=10;
+    void hello(){
         System.out.println("hai");
   }
     public static void main(String[] args) throws Exception {
-  
-    System.out.println(a);
-      hello();
+        
+    App h=new App() ; 
+    h.hello();
+    System.out.println(h.a);
+    
 
     }
   }
